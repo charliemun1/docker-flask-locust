@@ -11,7 +11,7 @@ RUN pip install --upgrade pip &&\
     pip install --trusted-host pypi.python.org -r requirements.txt
 
 # Expose port 8080 and 8089
-Expose 8080 8089
+Expose 8080
 
 # Run app.py at container launch
 CMD ["python", "app.py"]
